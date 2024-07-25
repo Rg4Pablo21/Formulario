@@ -1,0 +1,50 @@
+.box-login{
+    width: 100%;
+    max-width: 120rem;
+    height: 80rem;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 75rme auto;
+}
+.box-login .formulario{
+    height: 100%;
+    padding: 10rem 15rem;
+    
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+.box-login .logo{
+    grid-column: 1/9;
+
+}
+.box-login h2{
+    grid-column: 1/9;
+}
+
+.box-login .btn_face{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(6, 6, 87);
+    color: rgb(248, 243, 243);
+    grid-column: 1/4;
+}
+ .box-login .btn_xing {
+    grid-column: 5/8;
+    background-color: rgb(70, 68, 68);
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    color: white;
+   
+
+ }
+
+ .box-login span{
+    grid-column: 1/9;
+ }
